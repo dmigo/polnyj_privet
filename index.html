@@ -12,10 +12,11 @@
         dataLayer.push(arguments)
       }
       gtag('js', new Date())
-
       gtag('config', 'UA-130670880-1')
     </script>
     <title>Психиатрия и психотерапия (@polnyj_privet)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link href="css/dress-code.min.css" rel="stylesheet" />
     <style type="text/css" data-isostyle-id="is-6c17a276">
       html,
@@ -34,8 +35,9 @@
         height: 152px;
       }
       .instagram-span {
+        background-color: transparent;
         margin-left: auto;
-        margin-right: 0px;
+        margin-right: 0;
         display: block;
         overflow: hidden;
         width: 152px;
@@ -45,18 +47,22 @@
         height: 100%;
         width: 100%;
       }
+      .instagram-image {
+        height: 100%;
+        width: 100%;
+      }
       .avatar {
         cursor: pointer;
         align-self: center;
         display: block;
       }
       .profile {
-        margin: 50px auto;
+        margin: 2rem auto;
         max-width: 795px;
         min-width: 440px;
       }
       .instagram {
-        margin: 50px auto;
+        margin: 2rem auto;
         max-width: 795px;
         min-width: 440px;
       }
@@ -69,13 +75,15 @@
           <div class="dc-row">
             <div class="dc-column dc-column--small-4">
               <div class="dc-column__contents" role="button" tabindex="0">
-                <span class="avatar-span" role="link" tabindex="0">
-                  <img
-                    class="avatar-image"
-                    src="imgs/avatar.jpg"
-                    alt="Фото профиля polnyj_privet"
-                  />
-                </span>
+                <a href="https://www.instagram.com/polnyj_privet/">
+                  <span class="avatar-span" role="link" tabindex="0">
+                    <img
+                      class="avatar-image"
+                      src="imgs/avatar.jpg"
+                      alt="Фото профиля polnyj_privet"
+                    />
+                  </span>
+                </a>
               </div>
             </div>
             <div class="dc-column dc-column--small-1"></div>
@@ -131,7 +139,7 @@
               <a href="https://www.instagram.com/polnyj_privet/">
                 <span class="instagram-span" role="link" tabindex="0">
                   <img
-                    class="avatar-image"
+                    class="instagram-image"
                     src="imgs/instagram.png"
                     alt="Иконка инстаграма"
                   />
